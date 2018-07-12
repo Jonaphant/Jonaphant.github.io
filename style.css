@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+
+.landing {
+  position: relative;
+  height: 100vh;
+  background-image: url("img/landing.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  color: coral;
+}
+
+.landing-form {
+  margin-left: 150px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  text-align: center;
+  box-shadow: 5px 10px 5px #888888;
+} 
+
+.landing-form h1 {
+  margin-bottom: 10px;
+}
+
+.landing-form form {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.landing-form form .button {
+  align-self: center;
+}
+
+
+.landingButton {
+  border: none;
+  background-color: coral;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.landingButton:hover {
+  cursor: pointer;
+}
+
+.landingButtonLoc {
+  margin: auto;
+}
+
+@media (max-width:580px) {
+  .landing-form {
+    margin: auto;
+  }
+}
